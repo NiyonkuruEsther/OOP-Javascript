@@ -1,7 +1,9 @@
 // Classes are ways to create reusable blueprints for creating objects
 
 class BankAccount {
-    BankAccount(name, age, title){
+    // You can't name a constructor anything you want 
+    // You have to name it 'constructor' as it is what the processor knows
+    constructor(name, age, title){ 
         this.name = name;
         this.age = age;
         this.title = title;
